@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "focal-requirements-portal"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "focal-requirements-portal-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

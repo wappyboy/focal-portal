@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { auth } from "./firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import UploadForm from "./components/UploadForm";
-import Login from "./components/Login";
-import AdminDashboard from "./components/AdminDashboard";
+import Login from "./components/Auth";
+import AdminDashboard from "./components/AdminDasboard";
 
 function App() {
   const [user, setUser] = useState(null);

@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["http://localhost:5173", "https://your-vercel-app.vercel.app"],
+    "method": ["GET", "POST", "PUT", "DELETE"],
+    "maxAgeSeconds": 3600
+  }
+]
